@@ -1,0 +1,123 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #433520;
+}
+a:hover {
+    color: #433520;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #9dab86;
+    border-color: #77875e;
+}
+
+.btn-primary:hover {
+    background-color: #77875e;
+    border-color: #77875e;
+       
+}
+.btn-primary:active, .btn-primary:focus {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(119,135,94, 0.6) !important;
+    background-color: #77875e !important;
+    border-color: #77875e !important;
+    color: #77875e !important;
+}
+
+
+.form-control:focus {
+    background-color: #f1efdf;
+    border-color: #c7c19f;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(119,135,94, 0.6) !important;
+}
+
+.form-control {
+    background-color: #f1efdf;
+    border-color: #c7c19f;
+}
+
+.custom-file-label {
+    background-color: #f1efdf;
+    border-color: #c7c19f;
+}
+
+ .custom-file:focus, .custom-file:active {
+    background-color: #f1efdf !important;
+    border-color: #c7c19f !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(119,135,94, 0.6) !important;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #ded7b1;
+    color: #433520;
+    font-weight: bolder;
+    border-color: #77875e;
+    
+}
+
+.card {
+    background-color: #c7c19f;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+
+}
+
